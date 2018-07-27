@@ -1,7 +1,7 @@
 # ARPパケットを検出する
 とよぎぃ通信 vol.8 の「RustでAmazon Dash ButtonのARPパケットを検出する」に掲載されているコードです．
 
-Windowsではpnetクレートを使うために設定が必要なため，[pnetクレート](https://github.com/libpnet/libpnet)を参照ください．
+Windowsで動作させる場合はpnetクレートを使うために設定が必要です．詳細は[pnetクレート]https://github.com/libpnet/libpnet#windows)を参照ください．
 
 rustupを以下のコマンドで導入して，
 
