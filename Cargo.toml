@@ -1,0 +1,7 @@
+[package]
+authors = ["je6bmq <>"]
+name = "arp_detection"
+version = "0.1.0"
+
+[dependencies.pnet]
+version="0.21.0"
