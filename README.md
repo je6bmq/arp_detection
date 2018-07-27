@@ -14,5 +14,6 @@ main.rs内の９行目から１４行目における"XX"をMACアドレスの適
 以下のコマンドで実行可能です．
 
 ```
-$ cargo run 
+$ cargo build
+$ sudo ./target/build/arp_detection 
 ```
