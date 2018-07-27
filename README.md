@@ -3,10 +3,10 @@
 
 Windowsで動作させる場合はpnetクレートを使うために設定が必要です．詳細は[pnetクレート]https://github.com/libpnet/libpnet#windows)を参照ください．
 
-rustupを以下のコマンドで導入して，
+Rustコンパイラ群を以下のコマンドで導入して，
 
 ```
-$ curl -sSf https://rustup.sh.rs | sh
+$ curl https://sh.rustup.sh.rs  -sSf | sh
 ```
 
 main.rs内の９行目から１４行目における"XX"をMACアドレスの適切な値に設定することで，
